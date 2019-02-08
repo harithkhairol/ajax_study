@@ -32,6 +32,8 @@
         <ul>
         <li><a href="ajax-1.php">Change Content GET</a></li>
         <li><a href="ajax-2.php">Send Information GET</a></li>
+        <li><a href="ajax-3.php">Request Data POST</a></li>
+        <li><a href="ajax-4.php">Send Information POST</a></li>
         </ul>
     </body>
 </html>

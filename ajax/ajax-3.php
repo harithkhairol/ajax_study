@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Send Information GET</title>
+    <title>Request Data POST</title>
 </head>
 <body>
 
-<h1>The XMLHttpRequest Object</h1>
-
-<button type="button" onclick="loadDoc()">Request data</button>
+<button type="button" onclick="loadDoc()">Request Data</button>
 
 <p id="demo"></p>
-
+    
 <script>
 
-function loadDoc() {
+function loadDoc(){
 
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function(){
@@ -28,15 +26,13 @@ function loadDoc() {
         }
 
     };
-
-    xhttp.open("GET", "ajax-2-data.php?fname=Henry&lname=Ford", true);
+    
+    xhttp.open("POST", "ajax-3-data.php", true);
     xhttp.send();
 
 }
 
 </script>
-
-
 
 </body>
 </html>
