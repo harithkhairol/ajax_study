@@ -1,0 +1,12 @@
+<h1>AJAX</h1>
+
+        <h2>Ajax is a developer dreams because:</h2>
+
+        <ol>
+        
+        <li>Update a web page without reloading the page</li>
+        <li>Request data from a server - after the page has loaded</li>
+        <li>Receive data from a server - after the page has loaded</li>
+        <li>Send data to a server - in the background</li>
+
+        </ol>
