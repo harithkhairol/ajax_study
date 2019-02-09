@@ -19,13 +19,71 @@
 
         </ol>
 
+        <br>
+
+        <table>
+
+        <!-- start table style -->
+
+        <style>
         
+       table {
+
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
         
-        
-        
-        
-        
-    <br><hr>
+        }
+
+        td, th {
+
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+
+        }
+
+        </style>
+
+
+
+        <!-- end table style -->
+
+        <tr>
+        <th>Property</th>
+        <th>Description</th>
+        </tr>
+
+        <tr>
+        <td>onreadystatechange</td>
+        <td>Defines a function to be called when the readyState property changes
+        </td>
+        </tr>
+
+        <tr>
+        <td>readyState</td>
+        <td>Holds the status of the XMLHttpRequest. <br>
+        0: request not initialized <br>
+        1: server connection established <br>
+        2: request received  <br>
+        3: processing request  <br>
+        4: request finished and response is ready</td>
+        </tr>
+
+        <tr>
+        <td>status</td>
+        <td>200: "OK" <br>
+        403: "Forbidden" <br>
+        404: "Page not found"</td>
+        </tr>
+
+        <tr>
+        <td>statusText</td>
+        <td>Returns the status-text (e.g. "OK" or "Not Found")</td>
+        </tr>
+
+        </table>
+  
+        <br><hr><br>
 
 
 
@@ -34,6 +92,8 @@
         <li><a href="ajax-2.php">Send Information GET</a></li>
         <li><a href="ajax-3.php">Request Data POST</a></li>
         <li><a href="ajax-4.php">Send Information POST</a></li>
+        <li><a href="ajax-5.php">Callback Function GET</a></li>
+        <li><a href="ajax-6.php">The responseXML Property GET</a></li>
         </ul>
     </body>
 </html>
