@@ -94,6 +94,9 @@
         <li><a href="ajax-4.php">Send Information POST</a></li>
         <li><a href="ajax-5.php">Callback Function GET</a></li>
         <li><a href="ajax-6.php">The responseXML Property GET</a></li>
+        <li><a href="ajax-7.php">The getAllResponseHeaders() Method</a></li>
+        <li><a href="ajax-8.php">The getResponseHeader() Method</a></li>
+        <li><a href="ajax-9.php">AJAX XML Example</a></li>
         </ul>
     </body>
 </html>
