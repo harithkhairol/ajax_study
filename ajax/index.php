@@ -97,6 +97,7 @@
         <li><a href="ajax-7.php">The getAllResponseHeaders() Method</a></li>
         <li><a href="ajax-8.php">The getResponseHeader() Method</a></li>
         <li><a href="ajax-9.php">AJAX XML Example</a></li>
+        <li><a href="ajax-10.php">AJAX PHP Example</a></li>
         </ul>
     </body>
 </html>
