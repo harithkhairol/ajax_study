@@ -82,6 +82,24 @@
         </tr>
 
         </table>
+
+        <br>
+
+        <h4>Attempting MySQL connection using Docker...</h4>
+        
+        <?php
+
+        $host = 'mysql';
+        $user = 'root';
+        $pass = 'rootpassword';
+        $conn = new mysqli($host, $user, $pass);
+
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        } 
+        echo "Connected to MySQL successfully!";
+
+        ?>
   
         <br><hr><br>
 
@@ -99,6 +117,7 @@
         <li><a href="ajax-9.php">AJAX XML Example</a></li>
         <li><a href="ajax-10.php">AJAX PHP Example</a></li>
         <li><a href="ajax-11.php">AJAX ASP Example</a></li>
+        <li><a href="ajax-12.php">AJAX Database Example</a></li>
         </ul>
     </body>
 </html>
