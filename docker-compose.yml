@@ -24,6 +24,16 @@ services:
       - backend
     environment:
       - MYSQL_ROOT_PASSWORD=rootpassword
+    ports:
+      - '33061:3306'
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mysql
+    ports:
+      - 8383:80
+
 networks:
   frontend:
   backend:

@@ -33,9 +33,9 @@
 <select name="customers" onchange="showCustomer(this.value)">
 
 <option value="">Select a customer:</option>
-<option value="ALFKI">Alfreds Futterkiste</option>
-<option value="NORTS ">North/South</option>
-<option value="WOLZA">Wolski Zajazd</option>
+<option value="1">Alfreds Futterkiste</option>
+<option value="2 ">North/South</option>
+<option value="3">Wolski Zajazd</option>
 
 </select>
 
