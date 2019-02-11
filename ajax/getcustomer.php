@@ -1,6 +1,6 @@
 <?php 
 
-$mysqli = new mysqli("mysql", "root", "rootpassword", "testdb");
+$mysqli = new mysqli("mysql", "root", "rootpassword", "testDb");
 
 if($mysqli->connect_error){
 
@@ -16,10 +16,10 @@ $stmt->bind_param("s", $_GET['q']);
 $stmt->execute();
 $stmt->store_result();
 $stmt->bind_result($cid, $cname, $name, $adr, $city, $pcode, $country);
-$stmt->fetch();
-$stmt->close();
-
+//$stmt->fetch();
 echo "<table>";
+
+while ($stmt->fetch()) {
 echo "<tr>";
 echo "<th>CustomerID</th>";
 echo "<td>" . $cid . "</td>";
@@ -36,7 +36,12 @@ echo "<td>" . $pcode . "</td>";
 echo "<th>Country</th>";
 echo "<td>" . $country . "</td>";
 echo "</tr>";
+}
 echo "</table>";
+
+$stmt->close();
+
+
 
 
 ?>
