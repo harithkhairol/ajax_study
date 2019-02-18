@@ -118,6 +118,9 @@
         <li><a href="ajax-10.php">AJAX PHP Example</a></li>
         <li><a href="ajax-11.php">AJAX ASP Example</a></li>
         <li><a href="ajax-12.php">AJAX Database Example</a></li>
+        <li><a href="ajax-13.php">XML Applications</a></li>
+        <li><a href="ajax-14.php">XML Applications 2</a></li>
+        <li><a href="ajax-15.php">XML Applications 3</a></li>
         </ul>
     </body>
 </html>
